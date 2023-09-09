@@ -1,0 +1,236 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Gilroy';
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+    color: #000000;
+    background: #fff;
+}
+
+.main_container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+
+/* Header start */
+.header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 34px 0 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.school {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.school:hover, .school:focus {
+    opacity: 0.7;
+}
+
+.school:active {
+    transform: scale(0.95);
+}
+
+/* Header end */
+
+/* Intro start */
+.intro {
+    min-height: 100vh;
+    background: url(../img/background.png) no-repeat center;
+    background-size: cover;
+    padding-top: 279px;
+    padding-bottom: 427px;
+}
+
+.intro_title {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+
+.intro_description {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* Intro end */
+
+/* Heroes start */
+.heroes_container {
+    max-width: 1060px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.heroes_back_card {
+    max-width: 1260px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.25);
+    padding-top: 78px;
+    padding-bottom: 122px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.heroes {
+    transform: translateY(-233px);
+}
+
+.heroes_title {
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 66px;
+}
+
+.hero_card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 81px;
+}
+
+.hero_card:last-child {
+    margin-bottom: auto;
+}
+
+.hero_pic {
+    border-radius: 100%;
+}
+
+.hero_text_block {
+    padding-left: 30px;
+}
+
+.hero_title {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.hero_description {
+    font-size: 27px;
+    font-weight: 300;
+}
+
+/* Heroes end */
+
+/* Story start */
+.story_title {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.story_cards {
+    margin-bottom: 168px;
+}
+
+.story_text {
+    font-feature-settings: 'liga'off;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 131.5%;
+    text-indent: 50px;
+    margin-bottom: 5px;
+}
+
+.story_text1 {
+    max-width: 691px;
+}
+
+.story_text {
+
+}
+
+.story_text:last-child {
+    margin-bottom: 0;
+}
+
+.story_text_block {
+    padding-left: 190px;
+    margin-right: 21px;
+}
+
+.story_text_block2 {
+    padding-left: 41px;
+    padding-right: 148px;
+}
+
+.story_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.story_card1 {
+    transform: translateY(-18px);
+}
+
+.story_card3 {
+    transform: translateY(20px);
+}
+
+.story_dog_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 83px 27px 27px;
+    background-color: #fff;
+    box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.7);
+}
+
+.story_men_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 25px 27px 104px;
+    background-color: #fff;
+    box-shadow: 5px 5px 17px 1px rgba(0, 0, 0, 0.7);
+}
+
+
+.story_dog_pic {
+    margin-right: 65px;
+}
+
+.story_men_pic {
+    margin-left: 86px;
+}
+
+.vl {
+    height: 250px;
+    border-left: solid #000 3px;
+}
+/* Story end */
+
+/* Theme start */
+
+/* Theme end */
